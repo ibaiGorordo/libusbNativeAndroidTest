@@ -9,6 +9,7 @@ The modified libusb library is added as a submodule, so you will have to load th
 
 ```
 git clone https://github.com/ibaiGorordo/libusbAndroidTest.git
+cd libusbAndroidTest
 git submodule update --init
 ```
 
