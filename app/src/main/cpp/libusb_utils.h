@@ -5,7 +5,7 @@
 #ifndef NATIVE_ACTIVITY_LIBUSB_UTILS_H
 #define NATIVE_ACTIVITY_LIBUSB_UTILS_H
 
-#define LOG_TAG "libusbAndroidTest1"
+#define LOG_TAG "libusbAndroidTest"
 #define log(...) __android_log_print(ANDROID_LOG_INFO,LOG_TAG, __VA_ARGS__)
 #define verbose 1
 static void print_endpoint_comp(const struct libusb_ss_endpoint_companion_descriptor *ep_comp)
