@@ -5,7 +5,7 @@
 #ifndef NATIVE_ACTIVITY_LIBUSB_UTILS_H
 #define NATIVE_ACTIVITY_LIBUSB_UTILS_H
 
-#define LOG_TAG "libusbAndroidTest"
+#define LOG_TAG "libusbAndroidTest1"
 #define log(...) __android_log_print(ANDROID_LOG_INFO,LOG_TAG, __VA_ARGS__)
 #define verbose 1
 static void print_endpoint_comp(const struct libusb_ss_endpoint_companion_descriptor *ep_comp)
@@ -153,7 +153,6 @@ static void print_device(libusb_device *dev, libusb_device_handle *handle)
     const char *speed;
     int ret;
     uint8_t i;
-
     switch (libusb_get_device_speed(dev)) {
         case LIBUSB_SPEED_LOW:		speed = "1.5M"; break;
         case LIBUSB_SPEED_FULL:		speed = "12M"; break;
