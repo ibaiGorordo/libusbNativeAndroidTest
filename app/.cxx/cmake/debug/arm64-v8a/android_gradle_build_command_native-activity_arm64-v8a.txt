@@ -1,0 +1,7 @@
+Executable : C:\Users\ibaig\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\ibaig\Desktop\libusbAndroidTest\app\.cxx\cmake\debug\arm64-v8a
+native-activity
+jvmArgs : 
+

@@ -1,0 +1,1 @@
+C:\Users\ibaig\Desktop\oakdAndroid\xloemLibusb\libusbAndroidTest\app\build\intermediates\cmake\debug\obj\x86_64

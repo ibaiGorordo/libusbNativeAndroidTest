@@ -1,0 +1,65 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 28 min SDK version: armeabi-v7a",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\android_gradle_build.json due to:",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\libusb\\CMakeLists.txt",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\armeabi-v7a\u0027 but regenerating project",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-28\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d28\n-DANDROID_STL\u003dc++_static\n-BC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : C:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-28\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d28\n-DANDROID_STL\u003dc++_static\n-BC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process C:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe with arguments {-HC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp -DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab -DCMAKE_BUILD_TYPE\u003dDebug -DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake -DANDROID_ABI\u003darmeabi-v7a -DANDROID_NDK\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529 -DANDROID_PLATFORM\u003dandroid-28 -DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a -DCMAKE_ANDROID_NDK\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529 -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a -DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\ibaig\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -DCMAKE_SYSTEM_NAME\u003dAndroid -DCMAKE_SYSTEM_VERSION\u003d28 -DANDROID_STL\u003dc++_static -BC:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\.cxx\\cmake\\debug\\armeabi-v7a -GNinja}\n-- Configuring done\n\nCMake Warning (dev) in CMakeLists.txt:\n  No project() command is present.  The top-level CMakeLists.txt file must\n  contain a literal, direct call to the project() command.  Add a line of\n  code such as\n\n    project(ProjectName)\n\n  near the top of the file, but after cmake_minimum_required().\n\n  CMake is pretending there is a \"project(Project)\" command on the first\n  line.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Error at CMakeLists.txt:48 (add_library):\n  Cannot find source file:\n\n    C:/Users/ibaig/Desktop/libusbAndroidTest/app/src/main/cpp/libusb/libusb/os/linux_android_jni.c\n\n  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n  .hpp .hxx .in .txx\n\n\nCMake Error at CMakeLists.txt:48 (add_library):\n  No SOURCES given to target: libusb\n\n\nCMake Generate step failed.  Build files cannot be regenerated correctly.\n",
+    "file": "C:\\Users\\ibaig\\Desktop\\libusbAndroidTest\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]
