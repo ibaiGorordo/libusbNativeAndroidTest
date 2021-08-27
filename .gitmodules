@@ -1,0 +1,4 @@
+[submodule "libusb"]
+	path = app/src/main/cpp/libusb
+	url = https://github.com/xloem/libusb
+	branch = android
