@@ -52,13 +52,13 @@ add_library(libusb STATIC ${LIBUSB_SOURCES})
 set(CMAKE_SHARED_LINKER_FLAGS
     "${CMAKE_SHARED_LINKER_FLAGS} -u ANativeActivity_onCreate")
 
-add_library(native-activity SHARED main.cpp)
+add_library(libusbAndroidTest SHARED main.cpp)
 
-target_include_directories(native-activity PRIVATE
+target_include_directories(libusbAndroidTest PRIVATE
     ${ANDROID_NDK}/sources/android/native_app_glue)
 
 # add lib dependencies
-target_link_libraries(native-activity
+target_link_libraries(libusbAndroidTest
         android
         libusb
         native_app_glue

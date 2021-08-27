@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- BEGIN_INCLUDE(manifest) -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.native_activity"
+          package="com.example.libusbAndroidTest"
           android:versionCode="1"
           android:versionName="1.0">
 
@@ -23,7 +23,7 @@
               android:configChanges="orientation|keyboardHidden">
       <!-- Tell NativeActivity the name of our .so -->
       <meta-data android:name="android.app.lib_name"
-                 android:value="native-activity" />
+                 android:value="libusbAndroidTest" />
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
