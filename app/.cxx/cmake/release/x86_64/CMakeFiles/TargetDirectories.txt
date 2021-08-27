@@ -1,7 +1,0 @@
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/CMakeFiles/native_app_glue.dir
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/CMakeFiles/native-activity.dir
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/libusb/CMakeFiles/libusb.dir
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/libusb/CMakeFiles/edit_cache.dir
-C:/Users/ibaig/Desktop/oakdAndroid/xloemLibusb/libusbAndroidTest/app/.cxx/cmake/release/x86_64/libusb/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-C:\Users\ibaig\Desktop\oakdAndroid\xloemLibusb\libusbAndroidTest\app\build\intermediates\cmake\release\obj\arm64-v8a

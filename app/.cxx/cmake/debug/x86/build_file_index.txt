@@ -1,2 +1,0 @@
-C:\Users\ibaig\Desktop\libusbAndroidTest\app\src\main\cpp\CMakeLists.txt
-C:\Users\ibaig\Desktop\libusbAndroidTest\app\src\main\cpp\libusb\CMakeLists.txt
