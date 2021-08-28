@@ -13,47 +13,45 @@ cd libusbAndroidTest
 git submodule update --init
 ```
 
-# Known issues
-- When running the app into the device, it will install the app in the device but it will give an error when trying to launch. You can either use the installed app normally, or click to File->Invalidate caches/Restart...
-
-
 # Output
 Nothing will appear on the screen, you will have to check the logcat and filter for text contanining the **LOG_TAG** string (defined in libusb_utils.h and set to *libusbNativeAndroidTest* by default).
 
-Example
+### Example
 ```
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:   Manufacturer:              Movidius Ltd.
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:   Product:                   Movidius MyriadX
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:   Serial Number:             03e72485
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:   Configuration:
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     wTotalLength:            32
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     bNumInterfaces:          1
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     bConfigurationValue:     1
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     iConfiguration:          0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     bmAttributes:            80h
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     MaxPower:                250
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:     Interface:
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       bInterfaceNumber:      0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       bAlternateSetting:     0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       bNumEndpoints:         2
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       bInterfaceClass:       255
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       bInterfaceSubClass:    17
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       bInterfaceProtocol:    255
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       iInterface:            0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       Endpoint:
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bEndpointAddress:    81h
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bmAttributes:        02h
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         wMaxPacketSize:      512
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bInterval:           0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bRefresh:            0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bSynchAddress:       0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:       Endpoint:
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bEndpointAddress:    01h
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bmAttributes:        02h
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         wMaxPacketSize:      512
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bInterval:           0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bRefresh:            0
-2021-08-27 21:12:22.838 4615-5852/com.example.native_activity I/libusbAndroidTest1:         bSynchAddress:       0
+I/libusbAndroidTest:  
+Dev (bus 1, device 2): 03E7 - 2485 speed: Unknown
+      Manufacturer:              Movidius Ltd.
+      Product:                   Movidius MyriadX
+      Serial Number:             03e72485
+      Configuration:
+        wTotalLength:            32
+        bNumInterfaces:          1
+        bConfigurationValue:     1
+        iConfiguration:          0
+        bmAttributes:            80h
+        MaxPower:                250
+        Interface:
+          bInterfaceNumber:      0
+          bAlternateSetting:     0
+          bNumEndpoints:         2
+          bInterfaceClass:       255
+          bInterfaceSubClass:    17
+          bInterfaceProtocol:    255
+          iInterface:            0
+          Endpoint:
+            bEndpointAddress:    81h
+            bmAttributes:        02h
+            wMaxPacketSize:      512
+            bInterval:           0
+            bRefresh:            0
+            bSynchAddress:       0
+          Endpoint:
+            bEndpointAddress:    01h
+            bmAttributes:        02h
+            wMaxPacketSize:      512
+            bInterval:           0
+            bRefresh:            0
+            bSynchAddress:       0
 ```
 
 # References:
