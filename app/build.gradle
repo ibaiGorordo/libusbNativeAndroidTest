@@ -4,7 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId = 'com.example.libusbAndroidTest'
+        applicationId = 'com.example.libusbNativeAndroidTest'
         minSdkVersion 28
         targetSdkVersion 30
         externalNativeBuild {

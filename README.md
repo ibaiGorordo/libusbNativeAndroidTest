@@ -1,4 +1,4 @@
-# libusbAndroidTest
+# libusbNativeAndroidTest
  Example of a Native Android app for testing the libusb library in Android.
  
 # Why
@@ -18,7 +18,7 @@ git submodule update --init
 
 
 # Output
-Nothing will appear on the screen, you will have to check the logcat and filter for text contanining the **LOG_TAG** string (defined in libusb_utils.h and set to *libusbAndroidTest* by default).
+Nothing will appear on the screen, you will have to check the logcat and filter for text contanining the **LOG_TAG** string (defined in libusb_utils.h and set to *libusbNativeAndroidTest* by default).
 
 Example
 ```
