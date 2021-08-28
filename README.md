@@ -8,8 +8,8 @@ Support for libusb in non rooted Android devices is still not properly solved [r
 The modified libusb library is added as a submodule, so you will have to load the submodule either by clonning with the recursive flag or:
 
 ```
-git clone https://github.com/ibaiGorordo/libusbAndroidTest.git
-cd libusbAndroidTest
+git clone https://github.com/ibaiGorordo/libusbNativeAndroidTest.git
+cd libusbNativeAndroidTest
 git submodule update --init
 ```
 
@@ -18,7 +18,7 @@ Nothing will appear on the screen, you will have to check the logcat and filter 
 
 ### Example
 ```
-I/libusbAndroidTest:  
+I/libusbNativeAndroidTest:
 Dev (bus 1, device 2): 03E7 - 2485 speed: Unknown
       Manufacturer:              Movidius Ltd.
       Product:                   Movidius MyriadX
