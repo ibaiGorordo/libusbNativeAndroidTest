@@ -1,6 +1,4 @@
-#include <libusb.h>
 #include <android_native_app_glue.h>
-
 #include "libusb_utils.h"
 
 // outputs logs to show libusb's new thread is detached when closed

@@ -6,6 +6,7 @@
 #define NATIVE_ACTIVITY_LIBUSB_UTILS_H
 
 #include <android/log.h>
+#include <libusb.h>
 
 #define LOG_TAG "libusbNativeAndroidTest"
 #define log(...) __android_log_print(ANDROID_LOG_INFO,LOG_TAG, __VA_ARGS__)
