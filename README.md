@@ -19,6 +19,7 @@ Nothing will appear on the screen, you will have to check the logcat and filter 
 Example
 ```
 I/libusbAndroidTest:  
+Dev (bus 1, device 2): 03E7 - 2485 speed: Unknown
       Manufacturer:              Movidius Ltd.
       Product:                   Movidius MyriadX
       Serial Number:             03e72485
