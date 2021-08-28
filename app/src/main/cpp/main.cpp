@@ -1,5 +1,4 @@
 #include <libusb.h>
-#include <android/log.h>
 #include <android_native_app_glue.h>
 
 #include "libusb_utils.h"
