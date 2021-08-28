@@ -13,6 +13,9 @@ cd libusbAndroidTest
 git submodule update --init
 ```
 
+# Known issues
+- When running the app into the device, it will install the app in the device but it will give an error when trying to launch. You can either use the installed app normally, or click to File->Invalidate caches/Restart...
+
 
 # Output
 Nothing will appear on the screen, you will have to check the logcat and filter for text contanining the **LOG_TAG** string (defined in libusb_utils.h and set to *libusbAndroidTest* by default).
